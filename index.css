@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.progress span {
+    position: absolute;
+    display: block;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.wrapper {
+    background-color: white;
+    margin: auto;
+    margin-top: 4rem;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.img-fluid {
+    margin: 10px 0px 10px 0px;
+}
+
+
+/* 
+.img-thumbnail {
+    width: 100%;
+} */
+
+.hidden {
+    display: none;
+}
